@@ -1,1 +1,11 @@
-# Vamos solicitar como entrada dois números e depois vamos realizar uma operação simples entre eles.
+# Vamos solicitar como entrada dois números e depois vamos realizar uma operação simples entre eles.num1 = float(input("Digite o primeiro número: "))
+num2 = float(input("Digite o segundo número: "))
+
+print("Soma:", num1 + num2)
+print("Subtração:", num1 - num2)
+print("Multiplicação:", num1 * num2)
+
+if num2 != 0:
+    print("Divisão:", num1 / num2)
+else:
+    print("Não é possível dividir por zero.")
